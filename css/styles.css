@@ -59,7 +59,8 @@ h2,p{
     text-align: center;
 }
 
-.container,.container2{
+.container,
+.container2{
     margin: 0 auto;
     padding: 0.5rem;
     max-width: 860px;
@@ -72,14 +73,14 @@ input:focus{
 }
 
 
-.container label{
+.input_field label{
     display: block;
     font-size:  0.8em;
     margin: 0.5em 0;
 }
 
 
-.container input,textarea{
+.input_field input,textarea{
     display: block;
     width: 100%;
     padding: 5px;
@@ -92,14 +93,14 @@ textarea{
 
 }
 
-.container input,
+.input_field input,
 textarea,
 fieldset,
 button{
     border:none;
 }
 
-.container input,
+.input_field input,
 textarea
 {
     background:#e3e3e3;
