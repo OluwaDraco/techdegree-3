@@ -63,7 +63,6 @@ h2,p{
 .container2{
     margin: 0 auto;
     padding: 0.5rem;
-    max-width: 860px;
     
 }
 
@@ -151,3 +150,45 @@ footer{
 }
 
 
+@media (min-width:768px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container,.container2{
+        width: 450px;
+
+    }
+
+    .contactinfo{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .contactinfo label{
+        padding: 0 1em;
+        flex-basis: 25%;
+        
+    }
+
+    .contactinfo input{
+        flex-grow: 1;
+        margin: auto 0;
+    }
+    input[type="number"]{
+        max-width: 25%;
+    }
+    select{
+        margin: .5em 0;
+    }
+
+
+
+   
+   
+    
+
+   
+}
