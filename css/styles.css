@@ -73,14 +73,14 @@ input:focus{
 }
 
 
-.input_field label{
+.contactinfo label{
     display: block;
     font-size:  0.8em;
     margin: 0.5em 0;
 }
 
 
-.input_field input,textarea{
+.container .contactinfo input,textarea{
     display: block;
     width: 100%;
     padding: 5px;
@@ -93,14 +93,14 @@ textarea{
 
 }
 
-.input_field input,
+.contactinfo input,
 textarea,
 fieldset,
 button{
     border:none;
 }
 
-.input_field input,
+.contactinfo input,
 textarea
 {
     background:#e3e3e3;
