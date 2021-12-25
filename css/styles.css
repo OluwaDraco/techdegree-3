@@ -80,7 +80,8 @@ input:focus{
 }
 
 
-.contactinfo  input[type="text"],textarea{
+ input[type],
+ textarea{
     display: block;
     width: 100%;
     padding: 5px;
