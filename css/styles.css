@@ -78,7 +78,6 @@ input:focus{
     margin: 0.5em 0;
 }
 
-
  .contactinfo input,
  textarea{
     display: block;
@@ -126,6 +125,7 @@ p,
 
 ::-webkit-input-placeholder { 
     text-align: right;
+
 }
 
 button{
@@ -140,6 +140,7 @@ button{
 
 
 }
+
 
 footer{
     font-size: 10px;
