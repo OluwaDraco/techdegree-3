@@ -8,7 +8,7 @@ html {font-size: 18px;}
 body{
     background: white;
     color: #343536;
-    font-family:  "Merriweather";
+    font-family:  "Work Sans";
     margin: 0 5px;
 }
 legend{
@@ -67,7 +67,9 @@ h2,p{
 }
 
 
-input:focus{
+input:focus,
+select:focus,
+textarea:focus{
     outline: 2px solid rgb(7, 82, 133)
 }
 
@@ -79,12 +81,13 @@ input:focus{
 }
 
  .contactinfo input,
- textarea{
+ textarea,
+ select{
     display: block;
-    width: 100%;
-    padding: 5px;
+    padding: 4px;
     font-size: 10px;
     margin: 0.5em 0 0;
+    width: 100%;
 
 }
 textarea{
@@ -95,24 +98,27 @@ textarea{
 .contactinfo input,
 textarea,
 fieldset,
+select,
 button{
     border:none;
 }
 
 .contactinfo input,
-textarea
+textarea,
+select
 {
     background:#e3e3e3;
     border-radius: 5px;
 }
 
 
-.container input{
+.container input,
+select{
     display: block;
     
     height: 3em;
 }
- input[type="number"]{
+.contactinfo input[id*="zip"]{
     width: 50%;
 }
 
@@ -158,7 +164,7 @@ footer{
         flex-direction: column;
     }
     .container,.container2{
-        width: 450px;
+        width: 600px;
 
     }
 
@@ -171,19 +177,19 @@ footer{
     .contactinfo label{
         padding: 0 1em;
         flex-basis: 25%;
+        margin: 1em 0;
         
     }
 
-    .contactinfo input{
-        flex-grow: 1;
-        margin: auto 0;
+    .contactinfo input
+    ,select{
+        margin: 1em 0;
     }
-    input[type="number"]{
-        max-width: 25%;
+    .contactinfo input[id*="zip"] {
+        margin-left:auto;
+        width: 25%;
     }
-    select{
-        margin: .5em 0;
-    }
+
 
 
 
