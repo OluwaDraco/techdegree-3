@@ -3,7 +3,7 @@
 }
 
 
-html {font-size: 18px;}
+html {font-size: 16px;}
 
 body{
     background: white;
@@ -186,7 +186,7 @@ footer{
         margin: 1em 0;
     }
     .contactinfo input[id*="zip"] {
-        margin-left:auto;
+        margin-right:auto;
         width: 25%;
     }
 
